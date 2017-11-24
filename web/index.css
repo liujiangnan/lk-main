@@ -1,18 +1,17 @@
 
-.el-header, .el-footer {
+.el-header {
   text-align: center;
-  line-height: 60px;
+  line-height: 60px;  
+  border-bottom: solid 1px #D8DCE5;
 }
 
-.el-aside {
-  background-color: #D3DCE6;
+.el-aside { 
   color: #333;
-  text-align: center;
-  line-height: 200px;
+  text-align: center; 
+  border-right: solid 1px #D8DCE5;
 }
 
-.el-main {
-  background-color: #E9EEF3;
+.el-main { 
   color: #333;
   text-align: center;
   line-height: 160px;
@@ -47,4 +46,18 @@ body > .el-container {
 .row-bg {
   padding: 10px 0;
   background-color: #f9fafc;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) { 
+  width: 199px;
+  min-height: 400px;
+}
+
+.el-menu{
+  border: none;
+}
+
+.menuhead{
+  padding-top: 15px;
+  cursor: pointer; 
 }
